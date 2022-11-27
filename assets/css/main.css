@@ -2772,11 +2772,11 @@ input, select, textarea {
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 40%;
+			height: 30%;
+			line-height: 50%;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 40%;
+			width: 30%;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
