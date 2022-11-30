@@ -31,3 +31,15 @@ Credits:
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+
+28NOV22
+Fixed typos, added favicon, adjusted deanna image, added images to reviews, linked FB page to footer icon, & adjusted footer height (was covering bottom of business card).
+Need link to Calendly & LinkedIn & image for Tony Barnett.
+Not sure what to link for "CALL" or "TEXT" buttons.
+Worked on overlay opacity...got nowhere.
+
+29NOV22
+Made reviewer images smaller, adjusted html tags so Prettier extension works, commented out block beside review comments, & applied Prettier to js files.
+Worked on cropping images to circles.
+Explored overlay opacity and carousel for reviews.
