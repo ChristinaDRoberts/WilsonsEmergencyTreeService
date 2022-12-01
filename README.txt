@@ -43,3 +43,7 @@ Worked on overlay opacity...got nowhere.
 Made reviewer images smaller, adjusted html tags so Prettier extension works, commented out block beside review comments, & applied Prettier to js files.
 Worked on cropping images to circles.
 Explored overlay opacity and carousel for reviews.
+
+30NOV22
+Added Tony pic & Teri review/pic.
+Worked with overlay and photo gallery/slideshow. 
