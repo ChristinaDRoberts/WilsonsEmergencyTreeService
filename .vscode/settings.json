@@ -1,5 +1,8 @@
 {
   "cSpell.words": [
     "mobilep"
+  ],
+  "githubPullRequests.ignoredPullRequestBranches": [
+    "main"
   ]
 }
