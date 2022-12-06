@@ -19,54 +19,6 @@
 			}
 			</style> -->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-      div.gallery {
-        border: 1px solid #ccc;
-      }
-
-      div.gallery:hover {
-        border: 1px solid #777;
-      }
-
-      div.gallery img {
-        width: 100%;
-        height: auto;
-      }
-
-      div.desc {
-        padding: 15px;
-        text-align: center;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      .responsive {
-        padding: 0 6px;
-        float: left;
-        width: 24.99999%;
-      }
-
-      @media only screen and (max-width: 700px) {
-        .responsive {
-          width: 49.99999%;
-          margin: 6px 0;
-        }
-      }
-
-      @media only screen and (max-width: 500px) {
-        .responsive {
-          width: 100%;
-        }
-      }
-
-      .clearfix:after {
-        content: '';
-        display: table;
-        clear: both;
-      }
-    </style>
   </head>
 
   <body class="is-preload">
@@ -75,9 +27,9 @@
       <span
         ><img
           class="logo"
-          text-align="center"
+          text-align="right"
           src="images/marketing-images/wilson-tree-service-color.png"
-          alt=""
+          alt="wilson-tree-service"
       /></span>
       <h1><span>David Wilson</span></h1>
     </div>
@@ -185,13 +137,14 @@
         <header class="major">
           <h2>We value our customers...and it shows!</h2>
           <h3>Real customer reviews</h3>
-          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12" display="flex">
             <img
               src="images/reviewers-images/rachel-review.png"
               width="auto"
               height="100"
-              style="float: left; border-radius: 50%"
+              style="float: left; border-radius: 25%"
             />
+            <blockquote></blockquote>
             <h3>Rachel Palm</h3>
             <blockquote>
               "Very professional and nice. Hard worker. Does what he says he
@@ -199,7 +152,8 @@
             </blockquote>
 
             <img src="images/reviewers-images/tony-review.jpg" width=auto
-            height=100" style="float: right; border-radius: 50%"/>
+            height=100" style="float: right; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Tony Barnett</h3>
             <blockquote>
               "Wilson Tree service came out and did some tree clearing for me
@@ -209,7 +163,8 @@
             </blockquote>
 
             <img src="images/reviewers-images/carrie-review.png" width=auto
-            height=100" style="float: left; border-radius: 50%"/>
+            height=100" style="float: left; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Carrie Bailey</h3>
             <blockquote>
               "Very professional team! Speedy and efficient service. Had
@@ -218,7 +173,8 @@
             </blockquote>
 
             <img src="images/reviewers-images/bethany-review.png" width=auto
-            height=100" style="float: right; border-radius: 50%"/>
+            height=100" style="float: right; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Bethany Underwood</h3>
             <blockquote>
               Brent chopped down huge leaning pines on my property so quickly, I
@@ -227,7 +183,8 @@
             </blockquote>
 
             <img src="images/reviewers-images/deanna-review.png" width=auto
-            height=100" style="float: left; border-radius: 50%"/>
+            height=100" style="float: left; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Deanna Lingo</h3>
             <blockquote>
               "Always on time. Always very polite. Wonderful to do business
@@ -236,12 +193,14 @@
             </blockquote>
 
             <img src="images/reviewers-images/destiny-review.png" width=auto
-            height=100" style="float: right; border-radius: 50%"/>
+            height=100" style="float: right; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Destiny Hollingworth</h3>
             <blockquote>"Fast, great service! Highly recommended!"</blockquote>
 
             <img src="images/reviewers-images/teri-review.png" width=auto
-            height=100" style="float: left; border-radius: 50%"/>
+            height=100" style="float: left; border-radius: 25%"/>
+            <blockquote></blockquote>
             <h3>Teri Reynolds Wills</h3>
             <blockquote>
               "David recently cut some trees and removed some limbs over our
@@ -249,40 +208,63 @@
               David."
             </blockquote>
           </div>
+
           <div class="slideshow-container fade">
-            <!-- Full images with numbers and message Info -->
+            <!-- Images with title/caption -->
             <div class="Containers">
-              <div class="MessageInfo">1 / 3</div>
-              <img src="image1.jpg" style="width: 100%" />
-              <div class="Info">First caption</div>
+              <img
+                src="images/working-images/dust-trail.png"
+                style="width: 100%"
+              />
+              <div class="Info">Dust Trail</div>
             </div>
 
             <div class="Containers">
-              <div class="MessageInfo">2 / 3</div>
-              <img src="image2.jpg" style="width: 100%" />
-              <div class="Info">Second Caption</div>
+              <img
+                src="images/working-images/center-climb.jpg"
+                style="width: 100%"
+              />
+              <div class="Info">Center Climb</div>
             </div>
 
             <div class="Containers">
-              <div class="MessageInfo">3 / 3</div>
-              <img src="image3.jpg" style="width: 100%" />
-              <div class="Info">Third Caption</div>
+              <img
+                src="images/working-images/hanging-branch.jpg"
+                style="width: 100%"
+              />
+              <div class="Info">Hanging Branch</div>
             </div>
-
-            <!-- Back and forward buttons -->
-            <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+            <div class="Containers">
+              <img src="images/working-images/prune.png" style="width: 100%" />
+              <div class="Info">Pruning</div>
+            </div>
+            <div class="Containers">
+              <img
+                src="images/working-images/right-branch-climb.jpg"
+                style="width: 100%"
+              />
+              <div class="Info">Climbing</div>
+            </div>
+            <div class="Containers">
+              <img src="images/working-images/truck.jpg" style="width: 100%" />
+              <div class="Info">Bucket & Chip Truck</div>
+            </div>
+            <div class="Containers">
+              <img
+                src="images/working-images/red-high-climb.jpg"
+                style="width: 100%"
+              />
+              <div class="Info">High Climb</div>
+            </div>
+            <div class="Containers">
+              <img
+                src="images/working-images/saw-shoulder.png"
+                style="width: 100%"
+              />
+              <div class="Info">Saw on Shoulder</div>
+            </div>
           </div>
-
           <br />
-
-          <!-- The circles/dots -->
-          <div style="text-align: center">
-            <span class="dots" onclick="currentSlide(1)"></span>
-            <span class="dots" onclick="currentSlide(2)"></span>
-            <span class="dots" onclick="currentSlide(3)"></span>
-          </div>
-
           <div class="box alt">
             <ul class="actions special">
               <li>
@@ -377,28 +359,5 @@
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
     </section>
-
-    <div class="responsive">
-      <div class="gallery">
-        <a target="_blank" href="images/working-images/big-climb.png">
-          <img
-            src="images/working-images/big-climb.png"
-            alt="big-climb"
-            width="600"
-            height="400"
-          />
-        </a>
-        <div class="desc">Add a description of the image here</div>
-        <a target="_blank" href="images/working-images/big-climb.png">
-          <img
-            src="images/working-images/big-climb.png"
-            alt="big-climb"
-            width="600"
-            height="400"
-          />
-        </a>
-        <div class="desc">Add a description of the image here</div>
-      </div>
-    </div>
   </body>
 </html>

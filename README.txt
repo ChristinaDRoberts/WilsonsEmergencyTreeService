@@ -54,3 +54,8 @@ Created & connected Email button.
 Added radius to reviewer pics.
 Removed overlay from top main pic.
 Worked with review carousel and photo gallery/slideshow. 
+
+05DEC22 - 2 hrs
+Changed reviewer image round from 50% to 25%.
+Placed reviewer images by reviewer names.
+Finished photo carousel (instead of photo gallery).
