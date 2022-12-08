@@ -2787,6 +2787,7 @@ input, select, textarea {
 			line-height: 50%;
 			margin: 0 0 0.75em 0;
 			text-align: center;
+			width: 40%;
 		}
 
 			#header .logo.fa-paper-plane-o:before {
