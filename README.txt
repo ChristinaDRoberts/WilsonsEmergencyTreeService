@@ -54,3 +54,15 @@ Created & connected Email button.
 Added radius to reviewer pics.
 Removed overlay from top main pic.
 Worked with review carousel and photo gallery/slideshow. 
+
+05DEC22 - 2 hrs
+Changed reviewer image round from 50% to 25%.
+Placed reviewer images by reviewer names.
+Finished photo carousel (instead of photo gallery).
+
+07DEC22 - 1 hr
+Created review carousel & timed with photo carousel (4 sec rotation).
+Adjusted reviewer name font-size and added break between first & last names.
+Removed all negative top margin from footer (it kept covering up the business card info).
+Still need link for Calendly/calendar and LinkedIn (if applicable).
+Probably still need to re-crop main pic to see David more.
