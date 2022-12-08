@@ -18,34 +18,39 @@
     mobilep: [null, '480px'],
   });
 
-var slidePosition = 1;
-SlideShow(slidePosition);
+  var slidePosition = 0;
+  SlideShow(slidePosition);
 
-// forward/Back controls
-function plusSlides(n) {
-  SlideShow(slidePosition += n);
-}
-
-//  images controls
-function currentSlide(n) {
-  SlideShow(slidePosition = n);
-}
-
-function SlideShow(n) {
-  var i;
-  var slides = document.getElementsByClassName("Containers");
-  var circles = document.getElementsByClassName("dots");
-  if (n > slides.length) {slidePosition = 1}
-  if (n < 1) {slidePosition = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  function SlideShow() {
+    var i;
+    var slides = document.getElementsByClassName('Containers');
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = 'none';
+    }
+    slidePosition++;
+    if (slidePosition > slides.length) {
+      slidePosition = 1;
+    }
+    slides[slidePosition - 1].style.display = 'block';
+    setTimeout(SlideShow, 4000); // Change image every 3 seconds
   }
-  for (i = 0; i < circles.length; i++) {
-      circles[i].className = circles[i].className.replace(" enable", "");
+
+  var reviewPosition = 0;
+  ReviewShow(reviewPosition);
+
+  function ReviewShow() {
+    var i;
+    var reviews = document.getElementsByClassName('ReviewContainers');
+    for (i = 0; i < reviews.length; i++) {
+      reviews[i].style.display = 'none';
+    }
+    reviewPosition++;
+    if (reviewPosition > reviews.length) {
+      reviewPosition = 1;
+    }
+    reviews[reviewPosition - 1].style.display = 'block';
+    setTimeout(ReviewShow, 4000); // Change image every 3 seconds
   }
-  slides[slidePosition-1].style.display = "block";
-  circles[slidePosition-1].className += " enable";
-} 
 
   // Play initial animations on page load.
   $window.on('load', function () {
