@@ -18,7 +18,7 @@
     mobilep: [null, '480px'],
   });
 
-  var slidePosition = 1;
+  var slidePosition = 0;
   SlideShow(slidePosition);
 
   function SlideShow() {
@@ -32,8 +32,26 @@
       slidePosition = 1;
     }
     slides[slidePosition - 1].style.display = 'block';
-    setTimeout(SlideShow,3000); // Change image every 3 seconds
+    setTimeout(SlideShow, 4000); // Change image every 3 seconds
   }
+
+  var reviewPosition = 0;
+  ReviewShow(reviewPosition);
+
+  function ReviewShow() {
+    var i;
+    var reviews = document.getElementsByClassName('ReviewContainers');
+    for (i = 0; i < reviews.length; i++) {
+      reviews[i].style.display = 'none';
+    }
+    reviewPosition++;
+    if (reviewPosition > reviews.length) {
+      reviewPosition = 1;
+    }
+    reviews[reviewPosition - 1].style.display = 'block';
+    setTimeout(ReviewShow, 4000); // Change image every 3 seconds
+  }
+
   // Play initial animations on page load.
   $window.on('load', function () {
     window.setTimeout(function () {
