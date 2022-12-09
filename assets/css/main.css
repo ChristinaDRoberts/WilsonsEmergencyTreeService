@@ -3403,8 +3403,10 @@ input, select, textarea {
 			input[type="reset"],
 			input[type="button"],
 			.button {
-				display: block;
-				width: 100%;
+				/* display: block; */
+				width: auto;
+				background-color: #457B9D;
+				color: #e3e3e3;
 			}
 
 		/* Box */
