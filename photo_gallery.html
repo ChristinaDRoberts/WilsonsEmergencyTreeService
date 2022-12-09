@@ -49,22 +49,22 @@
         }
         
         /* Style the buttons */
-        .button {
+        .buttonPhoto {
           background-color: #1D3557; 
           color: whitesmoke; 
           text-align: center; 
           margin: 3%;
-          width: 40%;
+          max-width: 30%;
           cursor: pointer;
           /* font-size: 18px; */
         }
         
-        .button:hover {
+        .buttonPhoto:hover {
           background-color: #ddd;
           color:#1D3557
         }
         
-        .button.active {
+        .buttonPhoto.active {
           background-color:#1D3557 ;
           color: white;
         }
@@ -86,7 +86,7 @@
         <ul class="call-to-action">
           <li>
             <a href="sms:+18646860669" class="button">
-              Text Now for Your FREE Quote! 
+              Text for Your FREE Quote! 
             </a>
           </li>
         </ul>
@@ -105,9 +105,10 @@
 
         <section>
             <header class="major container medium"  id="myHeader">
-                <button class="button"  onclick="one()">1 </button>
-                <button class="button active"  onclick="two()">2 </button><br>
-                <a href="index.html" class = "button">Home</a><hr/>
+                <button class="buttonPhoto"  onclick="one()">Single </button>
+                <button class="buttonPhoto active"  onclick="two()">Double </button>
+                <a href="index.html" class = "buttonPhoto">Home</a>
+                <hr/>
                 <div class="row">
                     <div class="column_gallery">
                         <img src="images/working-images/big-climb.png" style="width:100%">
