@@ -195,6 +195,10 @@ input, select, textarea {
 			width: 38.25em;
 		}
 
+		.container.medium.full-width {
+			width: auto;  /* I think the footer looks better taking up the whole width, like the header img does */
+		}
+
 		@media screen and (max-width: 1280px) {
 
 			.container {
@@ -2415,7 +2419,7 @@ input, select, textarea {
 				}
 
 					ul.actions:not(.fixed) li > * {
-						width: 100%;
+						width: 70%;
 					}
 
 					ul.actions:not(.fixed) li:first-child {
@@ -2427,7 +2431,7 @@ input, select, textarea {
 					ul.actions:not(.fixed) li input[type="button"],
 					ul.actions:not(.fixed) li button,
 					ul.actions:not(.fixed) li .button {
-						width: 100%;
+						width: 70%;
 					}
 
 						ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -2537,12 +2541,12 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.9em;
+		font-size: 1.1em;
 		font-weight: 700;
 		letter-spacing: 0.125em;
 		line-height: 3.25em;
 		min-width: 15em;
-		padding: 0 1.5em;
+		padding: 9px 1.5em;
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -2726,7 +2730,7 @@ input, select, textarea {
 		/* auto,					 */
 		cover;
 		color: rgba(255, 255, 255, 0.);
-		padding: 10em 0 20em 0;
+		/* padding: 10em 0 20em 0; */
 		position: relative;
 		text-align: center;
 	}
@@ -2784,12 +2788,10 @@ input, select, textarea {
 			display: inline-block;
 			font-size: 2.25em;
 			line-height: 30%;
-			margin: 0 0 0.75em 0;
+			margin: 0 0 2.0em 0; 
 			text-align: center;
-			width: auto;
-    		height: auto;
-			max-width: 50%;
-			max-height: 50%;
+			width: 55%;
+			max-width: 500px;
 			
 		}
 
@@ -2943,9 +2945,111 @@ input, select, textarea {
 			background: #ffffff;
 		}
 
+/* Review Slideshow Styles */
+	.slideshow-container.review-slideshow-container {
+		margin-bottom: 4em;
+		border: 1px solid rgba(224, 224, 224, 0.75);
+		border-radius: 15px;
+		min-height: 300px;
+		display:flex;
+		align-items: center;
+		/* justify-content: space-evenly; */
+		height: 400px;
+		max-width: 800px;
+	}
+		
+	.review-container {
+		text-align:left;
+	}
+		
+	.review-image-container {
+		max-width:13em;
+		/* height: 18em;  */
+	}
+		
+	.review-image {
+		object-fit: contain;
+		width: 100%;
+		height: 100%;
+		border-radius: 15%;
+	}
+		
+	.review-row {
+		display: flex;
+		align-items: center;
+	}
+		
+	.review-name {
+		margin-top: 10px;
+	}
+		
+	.review-column {
+		padding: 10px; 
+		float: left;
+	}
+		
+	.column-left{
+		width: 40%;
+	}
+		
+	.column-right{
+		width: 60%; 
+		margin: auto;
+	}
+		
+	.review-blockquote {
+		padding: 1em !important;
+	}
+		
+	/* don't remove this - it will break many things */
+	.review-row:after {
+		content:"";
+		display:table;
+		clear:both;
+	}
+
+/* Just Unnecessarily Wide */ /* my monitors are huge and it was displaying weird so I made this for mostly me but also others who have large monitors -b */
+	@media screen and (max-width: 2800px) { 
+
+			/* Basic */
+	
+				body, input, select, textarea {
+					font-size: 14pt;
+				}
+	
+				h2 {
+					font-size: 1.5em;
+				}
+	
+				h3 {
+					font-size: 1.25em;
+				}
+	
+			/* Section/Article */
+	
+				header.major p {
+					font-size: 1.25em;
+				}
+	
+			/* Header */
+	
+				#header {
+					padding: 8em 0 16em 0;
+				}
+	
+					#header h1 {
+						font-size: 2.25em;
+					}
+	
+					#header p {
+						font-size: 1.25em;
+						line-height: 1.65em;
+					}
+		} 
+
 /* Wide */
 
-	@media screen and (max-width: 1680px) {
+	 @media screen and (max-width: 1920px) { 
 
 		/* Basic */
 
@@ -3097,6 +3201,18 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			.review-image-container {
+				max-width: 12em;
+			}
+
+			/* Review Slideshow Image */
+			.slideshow-container.review-slideshow-container {
+				height: 300px; 
+			}
+
+			.column-right {
+				max-height: 300px;
+			}
 	}
 
 /* Narrower */
@@ -3129,6 +3245,12 @@ input, select, textarea {
 
 			h3 {
 				font-size: 1em;
+			}
+
+			/* make the review button fit on smaller screens a bit better */
+			.review-button {
+				padding: 2px !important;
+				min-width: 20em;
 			}
 
 		/* Section/Article */
@@ -3381,9 +3503,10 @@ input, select, textarea {
 		to {opacity: 2}
 	}
 
+
 	/* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 700px;
   position: relative;
   margin: auto;
 }
