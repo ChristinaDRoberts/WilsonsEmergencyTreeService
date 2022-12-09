@@ -22,7 +22,6 @@
         * {
           box-sizing: border-box;
         }
-    
         
         .header {
           text-align: center;
@@ -50,15 +49,16 @@
         }
         
         /* Style the buttons */
-        /* .button {
-          border: none;
-          outline: none;
-          padding: 10px 16px;
-          background-color: #f1f1f1;
+        .button {
+          background-color: #1D3557; 
+          color: whitesmoke; 
+          text-align: center; 
+          margin: 3%;
+          width: 40%;
           cursor: pointer;
-          font-size: 18px;
+          /* font-size: 18px; */
         }
-         */
+        
         .button:hover {
           background-color: #ddd;
           color:#1D3557
@@ -97,19 +97,17 @@
         <section>
         <header class="major container medium">
             <h2 class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #cc1e2c; text-align: center;">Precision Scheduling</h2>
-           
-                  <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #457B9D; text-align: center">Outstanding Results</h2>
-            
-                  <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #1D3557; text-align: center">Happy Customers</h2>
+            <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #457B9D; text-align: center">Outstanding Results</h2>
+            <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #1D3557; text-align: center">Happy Customers</h2>
   
         </header>
         </section>
 
         <section>
             <header class="major container medium"  id="myHeader">
-                <button class="button" style="background-color: #1D3557; color: whitesmoke; text-align: center; margin: 5%" onmouseover="one()">One Column View</button><br>
-                <button class="button active" style="background-color: #1D3557; color: whitesmoke; text-align: center; margin: 5%" onmouseover="two()">Two Columns View </button><br>
-                <a href="index.html" class = "button" style="background-color: #1D3557; color: whitesmoke; text-align: center; margin: 5%">Home</a><br>
+                <button class="button"  onclick="one()">1 </button>
+                <button class="button active"  onclick="two()">2 </button><br>
+                <a href="index.html" class = "button">Home</a><hr/>
                 <div class="row">
                     <div class="column_gallery">
                         <img src="images/working-images/big-climb.png" style="width:100%">
@@ -134,7 +132,7 @@
                         <img src="images/working-images/tree-helmet.png" style="width:100%">
                       </div>
                 </div>
-                <a href="index.html" class = "button" style="background-color: #1D3557; color: whitesmoke; text-align: center; margin: 5%" >Home</a>
+                <a href="index.html" class = "button" >Home</a>
             </section>
         </div>
 
@@ -143,7 +141,6 @@
         <div id="footer">
           <div class="container medium">
             <header class="major last">
-                <!-- <a href="index.html" class = "button">Home</a> -->
                 <hr/>
               <h2>Schedule Your Free Quote Now!</h2>
             </header>
