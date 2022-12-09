@@ -48,7 +48,7 @@
           vertical-align: middle;
         }
         
-        /* Style the buttons */
+        Style the buttons
         .buttonPhoto {
           background-color: #1D3557; 
           color: whitesmoke; 
@@ -59,12 +59,12 @@
           /* font-size: 18px; */
         }
         
-        .buttonPhoto:hover {
+        .button:hover {
           background-color: #ddd;
           color:#1D3557
         }
         
-        .buttonPhoto.active {
+        .button .active {
           background-color:#1D3557 ;
           color: white;
         }
@@ -84,7 +84,7 @@
       <ul class="call-to-action">
         <li>
           <a href="sms:+18646860669" class="button" style="background-color: #1D3557; color: whitesmoke; text-align: center; max-width: 100%;">
-            Text Now For FREE Quote! 
+            Text For FREE Quote! 
           </a>
         </li>
       </ul>
@@ -103,9 +103,12 @@
 
         <section>
             <header class="major container medium"  id="myHeader">
-                <button class="buttonPhoto"  onclick="one()">Single </button>
-                <button class="buttonPhoto active"  onclick="two()">Double </button>
-                <button class="buttonPhoto" ><a href="index.html">Home</a></button>
+                <ul class="actions special">
+                    <li><a href="index.html" class="button" style="background-color: #1D3557; color: whitesmoke; text-align: center; max-width: 100%;">Home</a></li>
+                    <li><button class="button"  onclick="one()">Single </button></li>
+                    <li></li><button class="button"  onclick="two()">Double </button></li>
+                </ul>
+                
                 <hr/>
                 <div class="row">
                     <div class="column_gallery">
