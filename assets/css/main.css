@@ -3559,18 +3559,3 @@ h1 span {
 	background-color: #113d25; 
 }
 
-.header-nav{
-	position: sticky;
-	top:0;
-	background-color: rgba(224, 224, 224, 0.232);
-}
-
-.nav__links{
-	border-radius: 15%;
-	/* color:#457B9D; */
-	padding-right: 2%;
-	/* color: whitesmoke; */
-	display: inline-block;
-	text-align: center;
-}
-
