@@ -143,46 +143,10 @@
           </nav>
 
         <section>
-            <header class="major container medium"  id="myHeader">
-                <ul class="actions special">
-                    <button class="btn" style="width: auto;" onmouseover="one()">1 </button>
-                    <button class="btn" style="width: auto;" onmouseover="two()">2 </button>
-                </ul>
-                
-                <hr/>
-                <div class="row">
-                    <div class="column_gallery">
-                        <img src="images/working-images/big-climb.png" style="width:100%">
-                        <img src="images/working-images/center-climb.jpg" style="width:100%">
-                        <img src="images/working-images/close-up.png" style="width:100%">
-                        <img src="images/working-images/chipper.png" style="width:100%">
-                        <img src="images/working-images/dust-trail.png" style="width:100%">
-                        <!-- <img src="images/working-images/think.png" style="width:100%"> -->
-                        <img src="images/working-images/extended.png" style="width:100%">
-                        <img src="images/working-images/action-wrist.png" style="width:100%">
-                        <img src="images/working-images/fall.png" style="width:100%">
-                        <img src="images/working-images/repel2.png" style="width:100%">
-                        <img src="images/working-images/groundcut.png" style="width:100%">
-                        <!-- <img src="images/working-images/yellow-straps.jpg" style="width:100%"> -->
-                        <!-- <img src="images/working-images/saw-dust-smile.png" style="width:100%"> -->
-                        <img src="images/working-images/tree-helmet.png" style="width:100%">
-                      </div>
-                      <div class="column_gallery">
-                        <img src="images/working-images/prune.png" style="width:100%">
-                        <img src="images/working-images/shoulder.png" style="width:100%">
-                        <img src="images/working-images/climb-down.png" style="width:100%">
-                        <img src="images/working-images/red-high-climb.jpg" style="width:100%">
-                        <img src="images/working-images/repel.png" style="width:100%">
-                        <img src="images/working-images/right-branch-climb.jpg" style="width:100%">
-                        <img src="images/working-images/rot.jpg" style="width:100%">
-                        <img src="images/working-images/saw-dust.jpg" style="width:100%">
-                        <!-- <img src="images/working-images/saw-shoulder.png" style="width:100%"> -->
-                        <img src="images/working-images/side.png" style="width:100%">
-                        <img src="images/working-images/stone.png" style="width:100%">
-                        
-                      </div>
-                </div>
-            </section>
+             <span class="image fit main"
+          ><img src="images/marketing-images/bus-card.png" alt=""
+        /></span>
+        </section>
         </div>
 
      <!-- Footer -->
@@ -235,47 +199,5 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
-        <script>
-            // Get the elements with class="column_gallery"
-            var elements = document.getElementsByClassName("column_gallery");
-            
-            // Declare a loop variable
-            var i;
-            
-            // Full-width images
-            function one() {
-                for (i = 0; i < elements.length; i++) {
-                elements[i].style.msFlex = "100%";  // IE10
-                elements[i].style.flex = "100%";
-              }
-            }
-            
-            // Two images side by side
-            function two() {
-              for (i = 0; i < elements.length; i++) {
-                elements[i].style.msFlex = "50%";  // IE10
-                elements[i].style.flex = "50%";
-              }
-            }
-            
-            
-            // Add active class to the current button (highlight it)
-            var header = document.getElementById("myHeader");
-            var btns = header.getElementsByClassName("btn");
-            for (var i = 0; i < btns.length; i++) {
-              btns[i].addEventListener("click", function() {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-              });
-            }
-            </script>
-            <script>
-                window.addEventListener("scroll" ,function() {
-                    let nav = document.querySelector(".header-nav");
-                    nav.classList.toggle("sticky", window.scrollY > 0);
-                });
-                </script>
-            
     </body>
   </html>

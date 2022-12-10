@@ -17,32 +17,52 @@
 
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
-   .sticky {
-            background: #fff;
-            transition: 2s;
-            }
-    .sticky a {
-        color: #1D3557
+      .nav {
+        position: sticky;
+        top:0;
+        background-color: rgba(255, 255, 255, 0.609);
+        text-align: center;
+        width: 100%;
+        z-index: 5;
+        display: inline-block;
         }
+
+      nav a:hover {
+        text-decoration: underline;
+        /* color: #1D3557; */
+        color: red
+        }
+
+      nav a {
+          width: auto;
+          color:#457B9D;
+          text-decoration: none;
+      }
+      .nav-links {
+        margin: auto;
+        display: inline-block;
+        width: auto;
+        color:#457B9D;
+        /* background:rgb(22, 41, 98); */
+        padding: 2%;
+        text-align: center;
+      }
+    
+      /* .nav .sticky {
+          background:rgba(225, 76, 76, 0.221);
+          transition: 2s;
+          }
+      .nav .sticky a {
+          color: red;
+          } */
+
   </style>
   </head>
 
   <body class="is-preload">
     <!-- Header -->
-  
     <div id="header">
-      <!-- <header class="header-nav sticky">
-        <nav>
-          <ul>
-            <li class="nav__links"><a href="index.html">Home</a></li>
-            <li class="nav__links"><a href="photo_gallery.html">Photos</a></li>
-            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/">Reviews</a></li>
-            <li class="nav__links"><a href="sms:+18646860669">Text</a></li>
-            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
-          </ul>
-        </nav>
-      </header> -->
-      <span
+    <span
         ><img
           class="logo"
           text-align="right"
@@ -60,8 +80,10 @@
         </ul>
       </div>
 
+
     <!-- Main -->
     <div id="main">
+
       <section>
       <header class="major container medium">
           <h2 class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #cc1e2c; text-align: center;">Precision Scheduling</h2>
@@ -69,9 +91,18 @@
 			    <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #457B9D; text-align: center">Outstanding Results</h2>
 		  
 			    <h2  class= "col-lg-4 col-md-12 col-sm-12 col-xs-12" style="color: #1D3557; text-align: center">Happy Customers</h2>
-
       </header>
       </section>
+
+      <nav id="nav" class="nav">
+        <ul class="ul-nav">
+          <li class="nav-links"><a href="index.html" class="link">Home</a></li>
+          <li class="nav-links"><a href="photo_gallery.html" class="link">Photos</a></li>
+          <li class="nav-links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/" class="link" >Reviews</a></li>
+          <li class="nav-links"><a href="sms:+18646860669" class="link">Text</a></li>
+          <li class="nav-links"><a href="https://www.facebook.com/DavidWilsonTreeService/" class="link">FaceBook</a></li>
+        </ul>
+      </nav>
 
       <div class="box alt container">
         <section class="feature left">
@@ -375,7 +406,6 @@
 		  <!-- </div> -->
 
         <div class="slideshow-container fade">
-          <h3>Click on any image to go to photo gallery.</h3>
           <!-- Images  -->
           <a href="photo_gallery.html">
           <div class="Containers">
@@ -492,6 +522,7 @@
         /></span>
       </div>
     </section>
+  
 
     <!-- Footer -->
     <section class="major container medium full-width">
