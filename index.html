@@ -21,15 +21,15 @@
             background: #fff;
             transition: 2s;
             }
-        .sticky a {
-            color: #1D3557
-            }
+    .sticky a {
+        color: #1D3557
+        }
   </style>
   </head>
 
   <body class="is-preload">
     <!-- Header -->
-    <header class="nav">
+    <header class="header-nav">
       <nav>
         <ul>
           <li class="nav__links"><a href="index.html">Home</a></li>
@@ -386,7 +386,28 @@
 
           <div class="Containers">
             <img
+              src="images/working-images/close-up.png"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="Containers">
+            <img
               src="images/working-images/center-climb.jpg"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="Containers">
+            <img
+              src="images/working-images/saw-dust-smile.png"
+              style="width: 100%"
+            />
+          </div>
+
+          <div class="Containers">
+            <img
+              src="images/working-images/down_bucket.png"
               style="width: 100%"
             />
           </div>
@@ -532,8 +553,8 @@
       <script src="assets/js/main.js"></script>
       <script>
       window.addEventListener("scroll" ,function() {
-        let header = document.querySelector("header");
-        header.classList.toggle("sticky", window.scrollY > 0);
+        let header = document.querySelector(".header-nav");
+        header-nav.classList.toggle("sticky", window.scrollY > 0);
       });
       </script>
     </section>
