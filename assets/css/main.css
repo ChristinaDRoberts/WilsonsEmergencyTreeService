@@ -3562,7 +3562,8 @@ h1 span {
 #header .header-nav{
 	position: sticky;
 	top:0;
-	background-color: #457B9D;
+	background-color: rgba(224, 224, 224, 0.232);
+
 	/* color: whitesmoke; */
 
 	/* more styles here */
@@ -3570,7 +3571,7 @@ h1 span {
 
 .nav__links{
 	border-radius: 15%;
-	background:#457B9D;
+	/* color:#457B9D; */
 	padding-right: 2%;
 	/* color: whitesmoke; */
 	display: inline-block;
