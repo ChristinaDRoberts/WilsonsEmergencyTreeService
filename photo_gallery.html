@@ -48,16 +48,7 @@
           vertical-align: middle;
         }
         
-        Style the buttons
-        .buttonPhoto {
-          background-color: #1D3557; 
-          color: whitesmoke; 
-          text-align: center; 
-          margin: 2%;
-          max-width: 30%;
-          cursor: pointer;
-          /* font-size: 18px; */
-        }
+        /* Style the buttons */
         
         .button:hover {
           background-color: #ddd;
@@ -68,6 +59,14 @@
           background-color:#1D3557 ;
           color: white;
         }
+
+        .sticky {
+            background: #fff;
+            transition: 2s;
+            }
+        .sticky a {
+            color: #5c4e82
+            }
         </style>
   </head>
 
@@ -90,14 +89,6 @@
       </ul>
     </div>
 
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="photo_gallery.html">Photos</a>
-        <a href="#">Reviews</a>
-        <a href="https://www.facebook.com/DavidWilsonTreeService">Facebook</a>
-        <a href="#">Contact Us</a>
-      </div>
 
 
     <div id="main">
@@ -144,7 +135,7 @@
                       </div>
                 </div>
                 <ul class="actions special">
-                    <li><a href="index.html" class="button" style="background-color: #1D3557; color: whitesmoke; text-align: center; max-width: 100%;">Home</a></li>
+                    <li><a href="index.html" class="button" style="text-align: center; max-width: 100%;">Home</a></li>
                   </ul>
             </section>
         </div>
@@ -234,6 +225,12 @@
               });
             }
             </script>
+            <script>
+                window.addEventListener("scroll" ,function() {
+                    let header = document.querySelector("header");
+                    header.classList.toggle("sticky", window.scrollY > 0);
+                });
+                </script>
             
     </body>
   </html>

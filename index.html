@@ -16,10 +16,28 @@
     />
 
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+    .sticky {
+      background: #fff;
+      transition: 2s;
+    }
+    .sticky a {
+      color: #5c4e82
+    }
+  </style>
   </head>
 
   <body class="is-preload">
     <!-- Header -->
+    <header class="nav">
+      <nav>
+        <ul>
+          <li class="nav__links"><a href="index.html">Home</a></li>
+          <li class="nav__links"><a href="photo_gallery.html">Photo Gallery</a></li>
+          <li class="nav__links"><a href="#"></a></li>
+        </ul>
+      </nav>
+    </header>
     <div id="header">
       <span
         ><img
@@ -37,16 +55,7 @@
             </a>
           </li>
         </ul>
-    </div>
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="photo_gallery.html">Photos</a>
-      <a href="#">Reviews</a>
-      <a href="https://www.facebook.com/DavidWilsonTreeService">Facebook</a>
-      <a href="#">Contact Us</a>
-    </div>
+      </div>
 
     <!-- Main -->
     <div id="main">
@@ -519,6 +528,12 @@
       <script src="assets/js/breakpoints.min.js"></script>
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
+      <script>
+      window.addEventListener("scroll" ,function() {
+        let header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+      </script>
     </section>
   </body>
 </html>
