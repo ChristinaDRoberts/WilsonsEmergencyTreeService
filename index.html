@@ -29,7 +29,7 @@
 
   <body class="is-preload">
     <!-- Header -->
-    <header class="header-nav">
+    <div class="header-nav">
       <nav>
         <ul>
           <li class="nav__links"><a href="index.html">Home</a></li>
@@ -39,7 +39,7 @@
           <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
         </ul>
       </nav>
-    </header>
+    </divr>
     <div id="header">
       <span
         ><img
@@ -552,10 +552,10 @@
       <script src="assets/js/util.js"></script>
       <script src="assets/js/main.js"></script>
       <script>
-      window.addEventListener("scroll" ,function() {
-        let header = document.querySelector(".header-nav");
-        header-nav.classList.toggle("sticky", window.scrollY > 0);
-      });
+       window.addEventListener("scroll" ,function() {
+                    let nav = document.querySelector(".header-nav");
+                    nav.classList.toggle("sticky", window.scrollY > 0);
+                });
       </script>
     </section>
   </body>

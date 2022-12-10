@@ -1573,7 +1573,7 @@
 
 	}
 
-	#header .header-nav{
+	.header-nav{
 		position: sticky;
 		top:0;
 		background-color:#1D3557;
@@ -1585,4 +1585,5 @@
 		width: 25%;
 		background:rgb(22, 41, 98);
 		color: whitesmoke;
+		display: inline-block;
 	}

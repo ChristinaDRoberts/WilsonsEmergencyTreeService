@@ -71,17 +71,17 @@
   </head>
 
   <body class="is-preload">
-    <header class="header-nav">
+    <div class="header-nav">
         <nav>
-            <ul>
-                <li class="nav__links"><a href="index.html">Home</a></li>
-                <li class="nav__links"><a href="photo_gallery.html">Photo Gallery</a></li>
-                <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/">Reviews</a></li>
-                <li class="nav__links"><a href="sms:+18646860669">Text For Free Quote</a></li>
-                <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
-              </ul>
+          <ul>
+            <li class="nav__links"><a href="index.html">Home</a></li>
+            <li class="nav__links"><a href="photo_gallery.html">Photo Gallery</a></li>
+            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/">Reviews</a></li>
+            <li class="nav__links"><a href="sms:+18646860669">Text For Free Quote</a></li>
+            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
+          </ul>
         </nav>
-      </header>
+      </divr>
     <!-- Header -->
     <div id="header">
       <span
@@ -248,8 +248,8 @@
             </script>
             <script>
                 window.addEventListener("scroll" ,function() {
-                    let header = document.querySelector(".header-nav");
-                    header-nav.classList.toggle("sticky", window.scrollY > 0);
+                    let nav = document.querySelector(".header-nav");
+                    nav.classList.toggle("sticky", window.scrollY > 0);
                 });
                 </script>
             

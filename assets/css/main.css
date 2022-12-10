@@ -3559,7 +3559,7 @@ h1 span {
 	background-color: #113d25; 
 }
 
-#header .header-nav{
+.header-nav{
 	position: sticky;
 	top:0;
 	background-color: #1D3557;
@@ -3571,5 +3571,6 @@ h1 span {
 	width: 25%;
 	background:rgb(22, 41, 98);
 	color: whitesmoke;
+	display: inline-block;
 }
 
