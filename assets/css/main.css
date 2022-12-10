@@ -3559,18 +3559,21 @@ h1 span {
 	background-color: #113d25; 
 }
 
-.header-nav{
+#header .header-nav{
 	position: sticky;
 	top:0;
-	background-color: #1D3557;
-	color: whitesmoke
+	background-color: #457B9D;
+	/* color: whitesmoke; */
+
 	/* more styles here */
 }
 
 .nav__links{
-	width: 25%;
-	background:rgb(22, 41, 98);
-	color: whitesmoke;
+	border-radius: 15%;
+	background:#457B9D;
+	padding-right: 2%;
+	/* color: whitesmoke; */
 	display: inline-block;
+	text-align: center;
 }
 

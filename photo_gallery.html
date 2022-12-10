@@ -71,19 +71,20 @@
   </head>
 
   <body class="is-preload">
-    <div class="header-nav">
-        <nav>
-          <ul>
-            <li class="nav__links"><a href="index.html">Home</a></li>
-            <li class="nav__links"><a href="photo_gallery.html">Photo Gallery</a></li>
-            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/">Reviews</a></li>
-            <li class="nav__links"><a href="sms:+18646860669">Text For Free Quote</a></li>
-            <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
-          </ul>
-        </nav>
-      </divr>
+
     <!-- Header -->
     <div id="header">
+        <header class="header-nav sticky">
+          <nav>
+            <ul>
+              <li class="nav__links"><a href="index.html">Home</a></li>
+              <li class="nav__links"><a href="photo_gallery.html">Photo Gallery</a></li>
+              <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/reviews/">Reviews</a></li>
+              <li class="nav__links"><a href="sms:+18646860669">Text </a></li>
+              <li class="nav__links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FaceBook</a></li>
+            </ul>
+          </nav>
+        </header>
       <span
         ><img
           class="logo"
@@ -249,7 +250,7 @@
             <script>
                 window.addEventListener("scroll" ,function() {
                     let nav = document.querySelector(".header-nav");
-                    nav.classList.toggle("sticky", window.scrollY > 0);
+                    nav.classList.toggle("sticky", window.scrollY > 100);
                 });
                 </script>
             
