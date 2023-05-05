@@ -16,6 +16,19 @@
     />
 
     <link rel="stylesheet" href="assets/css/main.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+      //   $("#footer").load("footer.html"); 
+      });
+      </script> 
+    
+    
     <style>
       .nav {
         position: sticky;
@@ -61,7 +74,7 @@
 
   <body class="is-preload">
     <!-- Header -->
-    <div id="header">
+    <!-- <div id="header">
     <span
         ><img
           class="logo"
@@ -78,7 +91,8 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
+      <div id="header"></div>
 
 
     <!-- Main -->
@@ -96,7 +110,7 @@
 
       <nav id="nav" class="nav">
         <ul class="ul-nav">
-          <li class="nav-links" ><a href="index.html">Home</a></li>
+          <li class="nav-links" ><a href="/">Home</a></li>
               <li class="nav-links"><a href="photo_gallery.html">Photos</a></li>
               <li class="nav-links"><a href="reviews.html">Reviews</a></li>
               <li class="nav-links"><a href="https://www.facebook.com/DavidWilsonTreeService/">FB</a></li>
