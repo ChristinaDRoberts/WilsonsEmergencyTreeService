@@ -1,25 +1,9 @@
+Although heavily modified, base layout from license below, much appreciated!!
 Directive by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-A simple single pager built around an angular motif (powered by SVG awesomeness).
-Should work great for a landing page. Also includes default styling for a bunch of
-standard page elements (uncomment the huge block of commented-out HTML to see it).
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
 AJ
 aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
 Credits:
 
 	Demo Images:
@@ -32,10 +16,10 @@ Credits:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 
-
+Robert Contributions- 
 28NOV22 - 3 hrs
 Fixed typos, added favicon, adjusted deanna image, added images to reviews, linked FB page to footer icon, & adjusted footer height (was covering bottom of business card).
-Need link to Calendly & LinkedIn & image for Tony Barnett.
+Need link to Calendly & LinkedIn & image for ----.
 Not sure what to link for "CALL" or "TEXT" buttons.
 Worked on overlay opacity...got nowhere.
 
@@ -64,5 +48,4 @@ Finished photo carousel (instead of photo gallery).
 Created review carousel & timed with photo carousel (4 sec rotation).
 Adjusted reviewer name font-size and added break between first & last names.
 Removed all negative top margin from footer (it kept covering up the business card info).
-Still need link for Calendly/calendar and LinkedIn (if applicable).
 Probably still need to re-crop main pic to see David more.
