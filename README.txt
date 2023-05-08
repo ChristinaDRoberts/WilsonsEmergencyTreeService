@@ -1,20 +1,7 @@
 Although heavily modified, base layout from license below, much appreciated!!
 Directive by HTML5 UP
 html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-AJ
-aj@lkn.io | @ajlkn
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+(full license below and in license file)
 
 Robert Contributions- 
 28NOV22 - 3 hrs
@@ -49,3 +36,29 @@ Created review carousel & timed with photo carousel (4 sec rotation).
 Adjusted reviewer name font-size and added break between first & last names.
 Removed all negative top margin from footer (it kept covering up the business card info).
 Probably still need to re-crop main pic to see David more.
+
+
+Directive by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+A simple single pager built around an angular motif (powered by SVG awesomeness).
+Should work great for a landing page. Also includes default styling for a bunch of
+standard page elements (uncomment the huge block of commented-out HTML to see it).
+
+Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
+you can use for pretty much whatever.
+
+Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+AJ
+aj@lkn.io | @ajlkn
+Credits:
+
+	Demo Images:
+		Unsplash (unsplash.com)
+
+	Icons:
+		Font Awesome (fontawesome.io)
+
+	Other:
+		jQuery (jquery.com)
+		Responsive Tools (github.com/ajlkn/responsive-tools)
