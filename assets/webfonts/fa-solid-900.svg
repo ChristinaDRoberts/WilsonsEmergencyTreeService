@@ -17,8 +17,8 @@ Copyright (c) Font Awesome
     ascent="448"
     descent="-64"
     bbox="-1.00195 -64.9795 640.104 448.576"
-    underline-thickness="25"
-    underline-position="-50"
+    <!-- underline-thickness="25"
+    underline-position="-50" -->
     unicode-range="U+0020-F8FF"
   />
     <missing-glyph />

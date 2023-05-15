@@ -114,14 +114,65 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px;
-		color: #4eb980;
+		color:#457B9D;
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
+	.nav {
+        position: sticky;
+        top:0;
+        /* background:rgba(225, 76, 76, 0.221); */
+        background-color: rgba(255, 255, 255, 0.609);
+        text-align: center;
+        width: 100%;
+        z-index: 5;
+        display: inline-block;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        text-decoration: none !important;
+        text-transform: uppercase;
+        padding: 0 25px;
+        display: block;
+        transition: all 150ms linear;
+		/* transition: background-color 250ms linear; */
+      }
+	.nav a:hover,
+	.nav a:focus{
+		text-decoration: none;
+		color: red;
+		transition: all 150ms linear;   
+	}
+
+	.nav-links {
+        text-decoration: none;
+        margin: auto;
+        display: inline-block;
+        width: auto;
+        color:#457B9D;
+        /* background:rgb(22, 41, 98); */
+        padding: 2%;
+        text-align: center;
+      }
+  
+	/* .is-scrolled .nav-links{
+		background-color: #00b6e3;
+		transition: background-color 250ms linear;
 		}
+		
+	.is-scrolled a {
+		color: #fff;
+		}
+
+	.is-scrolled a:hover,
+	.is-scrolled a:focus,
+	.is-scrolled a:active,
+	.is-scrolled a.is-selected {
+		background-color: rgb(49, 109, 61);
+		color: #e30084;
+	}
+	 */
+	
+
 
 	strong, b {
 		font-weight: 600;
